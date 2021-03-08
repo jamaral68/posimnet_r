@@ -1,0 +1,109 @@
+
+
+# REAL CASE: Refinery
+
+# area [x y] plant's dimensions
+
+area [800 1200]
+
+
+#Coordenates (x,y) of SENSORS : The first one is the gateway (sink node)
+
+455	127
+361	488
+20	565
+269	330
+300	850
+750	400
+726	810
+
+
+
+
+#obstacles: 59
+
+
+
+
+# obstacles: circle´s area
+
+circle [x_center y_center radius] 
+
+circle	[155 34 20]
+circle	[73 32 19]
+circle	[54 177 14]
+circle	[49 281 14]
+circle	[54 386 14]
+circle	[142 382 13]
+circle	[145 275 15]
+circle	[145 452 14]
+circle	[32 481 5]
+circle	[78 479 5]
+circle	[76 598 13]
+circle	[153 602 13]
+circle	[184 712 5]
+circle	[206 574 3]
+circle	[257 712 5]
+circle	[269 602 13]
+circle	[360 760 3]
+circle	[361 728 3]
+circle	[472 906 19]
+circle	[472 821 19]
+circle	[453 768 3]
+circle	[453 749 3]
+circle	[489 754 3]
+circle	[561 1056 20]
+circle	[622 1100 16]
+circle	[626 1010 16]
+circle	[566 954 16]
+circle	[629 935 13]
+circle	[574 876 5]
+circle	[629 878 13]
+circle	[574 825 11]
+circle	[627 825 13]
+circle	[574 766 13]
+circle	[629 764 13]
+circle	[714 1067 13]
+circle	[753 1060 3]
+circle	[714 1030 3]
+circle	[753 1031 3]
+circle	[714 1003 3]
+circle	[753 993 5]
+circle	[714 978 3]
+circle	[714 946 3]
+circle	[753 946 5]
+circle	[714 908 3]
+circle	[753 895 5]
+circle	[714 862 5]
+circle	[753 847 5]
+circle	[714 811 3]
+circle	[714 764 3]
+circle	[707 659 13]
+circle	[655 646 5]
+circle	[655 621 5]
+circle	[359 165 14]
+circle	[353 120 10]
+circle	[365 306 7]
+
+
+
+
+# obstacles: polygon´s area
+
+polygon [x_vertex1 y_vertex1; x_vertex2 y_vertex2; ...;x_vertexn y_vertexn]
+
+polygon	[228 375;308 375;308 411;228 411]
+polygon	[255 433;308 433;308 458;255 458]
+polygon	[272 266;308 266;308 323;272 323]
+polygon	[508 268;576 268;576 300;508 300]
+
+
+
+
+# forbidden regions: polygon´s area
+
+polygon [x_vertex1 y_vertex1; x_vertex2 y_vertex2; ...;x_vertexn y_vertexn]
+
+polygon	[308 0;800 0;800 348]
+polygon	[0 961;419 1010;704 1200;0 1200]
+
